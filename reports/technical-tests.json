@@ -1,0 +1,37 @@
+{
+  "time": "2026-11-14T06:39:57.479Z",
+  "results": [
+    {
+      "name": "Page/Block：不能單頁 erase，拒絕擦除仍含有效資料的 Block",
+      "status": "PASS"
+    },
+    {
+      "name": "FTL：A 更新後讀取新頁，舊頁保持 invalid",
+      "status": "PASS"
+    },
+    {
+      "name": "GC：先搬 B/C 並更新 mapping，再整體 erase",
+      "status": "PASS"
+    },
+    {
+      "name": "TRIM：logical invalidation 不會直接 erase Block",
+      "status": "PASS"
+    },
+    {
+      "name": "WAF：一致頁大小的 6 / 4 = 1.5",
+      "status": "PASS"
+    },
+    {
+      "name": "12 頁與 12 組證據標記",
+      "status": "PASS"
+    },
+    {
+      "name": "GC 圖示順序與有效頁相符",
+      "status": "PASS"
+    },
+    {
+      "name": "關鍵限制寫入 Wiki：Page / LBA、TRIM、GC",
+      "status": "PASS"
+    }
+  ]
+}

@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/test.mjs
+      - run: node scripts/test-workflow.mjs
       - name: Recheck all release gates
         run: node scripts/workflow.mjs
       - name: Package public deliverables only

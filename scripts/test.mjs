@@ -17,4 +17,4 @@ export function tests(){
  test('關鍵限制寫入 Wiki：Page / LBA、TRIM、GC',()=>{assert(cards.find(c=>c.id==='E06').caveat.includes('LBA 大小不一定等於 Page'));assert(cards.find(c=>c.id==='E09').claim.includes('不保證立即擦除'));assert(cards.find(c=>c.id==='E07').claim.includes('更新 mapping，才 erase'));});
  return results;
 }
-if(process.argv[1]?.endsWith('test.mjs')){const r=tests();console.log(JSON.stringify(r,null,2));if(r.some(x=>x.status==='FAIL'))process.exitCode=1;}
+if(process.argv[1]?.endsWith('test.mjs')){const r=tests();fs.mkdirSync('reports',{recursive:true});fs.writeFileSync('reports/technical-tests.json',JSON.stringify({time:new Date().toISOString(),results:r},null,2));console.log(JSON.stringify(r,null,2));if(r.some(x=>x.status==='FAIL'))process.exitCode=1;}
