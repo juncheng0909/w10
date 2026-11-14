@@ -1,7 +1,7 @@
-# 第十週作業：Inside SSD
+# 第十週作業
 
-- 姓名：＿＿＿＿
-- 學號：＿＿＿＿
+- 姓名：蘇俊誠
+- 學號：E64131590
 - 專案：Inside SSD — 從 NAND Flash 到 FTL
 - 主題：SSD Architecture & Flash Translation Layer
 - Repository：https://github.com/juncheng0909/w10
@@ -37,3 +37,5 @@
 ## AI 使用揭露
 
 使用生成式 AI 協助閱讀指定資料、以繁體中文整理 Wiki、產生圖解及程式、執行檢查並記錄問題。來源衝突、教學簡化與測試限制均留在專案中。
+
+
