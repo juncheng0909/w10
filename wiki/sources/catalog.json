@@ -1,0 +1,57 @@
+[
+  {
+    "id": "S1",
+    "name": "SNIA — What is an SSD?",
+    "url": "https://www.snia.org/education/what-is-ssd",
+    "locator": "Overview；Media - Non-Volatile Memory",
+    "summary": "SSD 使用非揮發記憶體。NAND 由 controller 管理，可透過多個 channel 連接。Cell 儲存位元，Page 是 program 單位，Block 包含多個 Page 並整體 erase。SLC/MLC/TLC/QLC 分別表示每 Cell 1/2/3/4 bits。",
+    "limits": "基礎架構來源。介面與外型是不同概念，不以本頁市場敘述推估效能。",
+    "date": "2026-11-14",
+    "status": "read",
+    "method": "web open + section inspection"
+  },
+  {
+    "id": "S2",
+    "name": "Williams College — Solid State Drives (SSDs)",
+    "url": "https://www.cs.williams.edu/~jannen/teaching/s21/cs333/meetings/SSDs.html",
+    "locator": "SSD Organization；Endurance；Garbage Collection；The Flash Translation Layer",
+    "summary": "NAND 更新採另寫新頁。FTL 維護 logical-to-physical 對應。GC 先搬移所有有效頁，更新指標，再擦除整個 Block。Wear Leveling 分散寫入造成的磨耗，P/E 會影響耐用度。",
+    "limits": "2021 課程講義。GC 段落位元翻轉文字自相矛盾，不採用 0/1 電荷方向。採用 S1、S3、S4 交叉確認的 erase-before-write 原則。",
+    "date": "2026-11-14",
+    "status": "read",
+    "method": "web open + section inspection"
+  },
+  {
+    "id": "S3",
+    "name": "Samsung — A Brief History of Data Placement Technologies",
+    "url": "https://semiconductor.samsung.com/news-events/tech-blog/a-brief-history-of-data-placement-technologies/",
+    "locator": "1. Why are SSD data placement technologies needed?；SSD Basics；SSD Write Amplification",
+    "summary": "Host 使用 LBA。FTL 將邏輯位址轉為 NAND 實體位址，更新資料會寫入空閒頁並讓舊頁失效。GC 額外搬移造成 Write Amplification，WAF 以 SSD 寫入量除以 Host 寫入量衡量。資料配置可影響 GC 成本。",
+    "limits": "文章中的 single open block、順序寫入 WAF=1 是簡化脈絡，不當成所有 SSD 的保證。本文使用一致時間窗的 bytes 計量。",
+    "date": "2026-11-14",
+    "status": "read",
+    "method": "web open + section inspection"
+  },
+  {
+    "id": "S4",
+    "name": "KIOXIA — Rethinking the erase operation of low-latency SSDs",
+    "url": "https://www.kioxia.com/en-jp/rd/technology/topics/topics-51.html",
+    "locator": "2023-09-20；開頭說明與 Figure 1",
+    "summary": "Read/write 使用 Page 單位，erase 使用較大的 Block 單位。Erase 所需時間會干擾 throughput 與 latency。低延遲 SSD 仍需管理 erase 的成本。",
+    "limits": "文中 4–16 KB Page、數 MB 到數十 MB Block 是該文範例，與 S3 範圍不同。教學不指定通用尺寸，也不泛化 BOOSTER 研究結果。",
+    "date": "2026-11-14",
+    "status": "read",
+    "method": "web open + section inspection"
+  },
+  {
+    "id": "S5",
+    "name": "Red Hat — RHEL 7 Storage Administration Guide, Chapter 21",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_Linux/7/html/storage_administration_guide/ch-ssd",
+    "locator": "Chapter 21；discard 說明；Deployment Considerations 的 TRIM 類型",
+    "summary": "Host 可透過 discard 告知裝置某段 logical blocks 已不再使用。ATA 使用 TRIM，SCSI 使用 UNMAP 等命令。支援狀態取決於裝置與儲存堆疊。TRIM 後讀取行為有不同類型，不能一概宣稱讀回零。",
+    "limits": "這是 RHEL 7 文件，只採用 discard 概念，不把舊版 Linux 設定當作現代系統操作建議。由通知語意與 erase 粒度推導：TRIM 不保證立即物理擦除，也不能當成安全抹除。",
+    "date": "2026-11-14",
+    "status": "read",
+    "method": "web open + section inspection"
+  }
+]

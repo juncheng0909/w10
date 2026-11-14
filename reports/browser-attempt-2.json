@@ -1,0 +1,186 @@
+{
+  "htmlSha256": "fc179edfb8c534e1f95e0bbae2355d511780513ae4078eefa05ea4ccf8b17fca",
+  "environment": "Codex in-app browser / actual DOM measurements",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 2,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 3,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 4,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 5,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 6,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 7,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 8,
+          "pass": false,
+          "issue": "diagram or expanded quiz overlaps source footer"
+        },
+        {
+          "page": 9,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 10,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 11,
+          "pass": true,
+          "issue": null
+        },
+        {
+          "page": 12,
+          "pass": false,
+          "issue": "diagram or expanded quiz overlaps source footer"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true
+        },
+        {
+          "page": 2,
+          "pass": true
+        },
+        {
+          "page": 3,
+          "pass": true
+        },
+        {
+          "page": 4,
+          "pass": true
+        },
+        {
+          "page": 5,
+          "pass": true
+        },
+        {
+          "page": 6,
+          "pass": true
+        },
+        {
+          "page": 7,
+          "pass": true
+        },
+        {
+          "page": 8,
+          "pass": true
+        },
+        {
+          "page": 9,
+          "pass": true
+        },
+        {
+          "page": 10,
+          "pass": true
+        },
+        {
+          "page": 11,
+          "pass": true
+        },
+        {
+          "page": 12,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true
+        },
+        {
+          "page": 2,
+          "pass": true
+        },
+        {
+          "page": 3,
+          "pass": true
+        },
+        {
+          "page": 4,
+          "pass": true
+        },
+        {
+          "page": 5,
+          "pass": true
+        },
+        {
+          "page": 6,
+          "pass": true
+        },
+        {
+          "page": 7,
+          "pass": true
+        },
+        {
+          "page": 8,
+          "pass": true
+        },
+        {
+          "page": 9,
+          "pass": true
+        },
+        {
+          "page": 10,
+          "pass": true
+        },
+        {
+          "page": 11,
+          "pass": true
+        },
+        {
+          "page": 12,
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "Expanded quiz overlap",
+      "pass": false
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-14",
+  "environment": "Codex in-app browser (Chromium), CUA Playwright DOM measurements and screenshots",
+  "method": "All 12 slides visited using real next-button clicks at each viewport. All four quiz answers opened on slide 12. Footer intersections, scrollHeight/clientHeight and horizontal document bounds measured.",
+  "htmlSha256": "a5956edb3a561f8fab925e91d28dff4f110641743eb18e9b721d66db39e71540",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 2,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 3,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 4,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 5,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 6,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 7,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 8,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 9,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 10,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 11,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 12,
+          "pass": true,
+          "clientHeight": 585,
+          "scrollHeight": 585,
+          "documentHeight": 720,
+          "overlap": false,
+          "horizontalOverflow": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 2,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 3,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 4,
+          "pass": true,
+          "clientHeight": 746,
+          "scrollHeight": 746,
+          "documentHeight": 865,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 5,
+          "pass": true,
+          "clientHeight": 785,
+          "scrollHeight": 785,
+          "documentHeight": 904,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 6,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 7,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 8,
+          "pass": true,
+          "clientHeight": 938,
+          "scrollHeight": 938,
+          "documentHeight": 1057,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 9,
+          "pass": true,
+          "clientHeight": 743,
+          "scrollHeight": 743,
+          "documentHeight": 861,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 10,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 11,
+          "pass": true,
+          "clientHeight": 718,
+          "scrollHeight": 718,
+          "documentHeight": 844,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 12,
+          "pass": true,
+          "clientHeight": 826,
+          "scrollHeight": 826,
+          "documentHeight": 944,
+          "overlap": false,
+          "horizontalOverflow": false
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "slides": [
+        {
+          "page": 1,
+          "pass": true,
+          "clientHeight": 674,
+          "scrollHeight": 674,
+          "documentHeight": 800,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 2,
+          "pass": true,
+          "clientHeight": 715,
+          "scrollHeight": 715,
+          "documentHeight": 834,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 3,
+          "pass": true,
+          "clientHeight": 674,
+          "scrollHeight": 674,
+          "documentHeight": 800,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 4,
+          "pass": true,
+          "clientHeight": 779,
+          "scrollHeight": 779,
+          "documentHeight": 897,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 5,
+          "pass": true,
+          "clientHeight": 808,
+          "scrollHeight": 808,
+          "documentHeight": 926,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 6,
+          "pass": true,
+          "clientHeight": 740,
+          "scrollHeight": 740,
+          "documentHeight": 858,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 7,
+          "pass": true,
+          "clientHeight": 721,
+          "scrollHeight": 721,
+          "documentHeight": 839,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 8,
+          "pass": true,
+          "clientHeight": 938,
+          "scrollHeight": 938,
+          "documentHeight": 1057,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 9,
+          "pass": true,
+          "clientHeight": 743,
+          "scrollHeight": 743,
+          "documentHeight": 861,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 10,
+          "pass": true,
+          "clientHeight": 828,
+          "scrollHeight": 828,
+          "documentHeight": 947,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 11,
+          "pass": true,
+          "clientHeight": 688,
+          "scrollHeight": 688,
+          "documentHeight": 806,
+          "overlap": false,
+          "horizontalOverflow": false
+        },
+        {
+          "page": 12,
+          "pass": true,
+          "clientHeight": 891,
+          "scrollHeight": 891,
+          "documentHeight": 1009,
+          "overlap": false,
+          "horizontalOverflow": false
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "Home",
+      "expectedPage": 1,
+      "actualPage": 1,
+      "pass": true
+    },
+    {
+      "name": "ArrowRight",
+      "expectedPage": 2,
+      "actualPage": 2,
+      "pass": true
+    },
+    {
+      "name": "ArrowLeft",
+      "expectedPage": 1,
+      "actualPage": 1,
+      "pass": true
+    },
+    {
+      "name": "PageDown",
+      "expectedPage": 2,
+      "actualPage": 2,
+      "pass": true
+    },
+    {
+      "name": "PageUp",
+      "expectedPage": 1,
+      "actualPage": 1,
+      "pass": true
+    },
+    {
+      "name": "Space",
+      "expectedPage": 2,
+      "actualPage": 2,
+      "pass": true
+    },
+    {
+      "name": "End",
+      "expectedPage": 12,
+      "actualPage": 12,
+      "pass": true
+    },
+    {
+      "name": "四題答案全部展開",
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "name": "最後一頁 Next disabled",
+      "pass": true
+    },
+    {
+      "name": "Next 按鈕走訪 12 頁與 hash #1–#12",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "手機採垂直閱讀與 sticky controls，不維持 16:9。桌面 canvas 維持 16:9。",
+    "非實體手機與非跨瀏覽器認證。",
+    "初次 localhost 連線失敗與排版修正另存 browser-attempt-1/2.json。"
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"inside-ssd-w10","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","check":"node scripts/workflow.mjs","test":"node scripts/test.mjs","serve":"node scripts/serve.mjs"},"engines":{"node":">=22"}}

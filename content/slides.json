@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Inside SSD",
+    "subtitle": "從 NAND Flash 到 FTL",
+    "kicker": "WEEK 10 · 生成式 AI",
+    "evidence": [
+      "E01"
+    ],
+    "diagram": "cover",
+    "takeaway": "一筆資料更新，為什麼會引發一連串內部工作？"
+  },
+  {
+    "title": "SSD 基本架構",
+    "subtitle": "Host 看見位址，controller 管理 NAND",
+    "kicker": "02 / SSD INTERNALS",
+    "evidence": [
+      "E01"
+    ],
+    "diagram": "arch",
+    "takeaway": "電腦送出 LBA 存取要求，SSD 內部才決定實體位置。"
+  },
+  {
+    "title": "NAND Flash 與 Cell",
+    "subtitle": "一顆 Cell 可以儲存幾個 bits？",
+    "kicker": "03 / SSD INTERNALS",
+    "evidence": [
+      "E02"
+    ],
+    "diagram": "cell",
+    "takeaway": "不畫固定的 0/1 電荷方向，避免把不同編碼簡化為同一電路實作。"
+  },
+  {
+    "title": "Page 與 Block",
+    "subtitle": "讀寫與擦除，使用不同的單位",
+    "kicker": "04 / SSD INTERNALS",
+    "evidence": [
+      "E03"
+    ],
+    "diagram": "block",
+    "takeaway": "圖中每個 Block 只有四頁，是縮小的教學模型，並非實際 NAND 容量。Host logical block 不等於 NAND erase Block。實際尺寸依產品而異。"
+  },
+  {
+    "title": "為什麼不能原地覆寫",
+    "subtitle": "新版本寫到別處，舊版本等待回收",
+    "kicker": "05 / SSD INTERNALS",
+    "evidence": [
+      "E04"
+    ],
+    "diagram": "update",
+    "takeaway": "這是一般更新模型，不討論 partial-page programming 的特定限制，也不宣稱所有電荷狀態都絕對只能寫一次。"
+  },
+  {
+    "title": "Flash Translation Layer",
+    "subtitle": "把邏輯世界接到實體世界",
+    "kicker": "06 / SSD INTERNALS",
+    "evidence": [
+      "E05"
+    ],
+    "diagram": "ftl",
+    "takeaway": "這裡聚焦一般由裝置管理的 NAND SSD，不延伸到 host-managed 特殊架構。"
+  },
+  {
+    "title": "LBA / PPA Mapping",
+    "subtitle": "同一個 LBA，可以換一個實體位置",
+    "kicker": "07 / SSD INTERNALS",
+    "evidence": [
+      "E06"
+    ],
+    "diagram": "mapping",
+    "takeaway": "教學採 page-level mapping。真實 LBA 大小不一定等於 Page，也可能多個 LBA 共用一頁，FTL mapping 粒度與結構會不同。PPA 字母縮寫是教材記號。"
+  },
+  {
+    "title": "Garbage Collection",
+    "subtitle": "搬走有效資料，才能整個擦除",
+    "kicker": "08 / SSD INTERNALS",
+    "evidence": [
+      "E07"
+    ],
+    "diagram": "gc",
+    "takeaway": "原創示例：B0=[A舊,B有效,C有效,D失效]。搬移 B、C 兩頁後，B0 才能整體擦除。任何 erase 前漏搬有效頁都會遺失資料。"
+  },
+  {
+    "title": "Wear Leveling",
+    "subtitle": "讓磨耗分散到不同區域",
+    "kicker": "09 / SSD INTERNALS",
+    "evidence": [
+      "E08"
+    ],
+    "diagram": "wear",
+    "takeaway": "不承諾消除磨耗，也不從玩具示例估算真實 SSD 壽命。圖中 P/E 數字只示意分配策略。"
+  },
+  {
+    "title": "TRIM 與 discard",
+    "subtitle": "告知裝置：這些資料不再需要",
+    "kicker": "10 / SSD INTERNALS",
+    "evidence": [
+      "E09"
+    ],
+    "diagram": "trim",
+    "takeaway": "最後兩項是依 S5 的通知語意、不同讀取行為與 S2 的 Block erase 規則推導。TRIM 後不保證所有裝置一律讀回零。"
+  },
+  {
+    "title": "Write Amplification",
+    "subtitle": "一次 Host 寫入，可能帶來更多內部寫入",
+    "kicker": "11 / SSD INTERNALS",
+    "evidence": [
+      "E10"
+    ],
+    "diagram": "waf",
+    "takeaway": "計算忽略壓縮、快取與其他 metadata 成本，只隔離 GC 的教學效果。TRIM 可能減少搬移，實際 WAF 仍依工作負載與實作而異。"
+  },
+  {
+    "title": "總結與測驗",
+    "subtitle": "用四個問題，檢查你是否理解",
+    "kicker": "12 / CHECK YOUR UNDERSTANDING",
+    "evidence": [
+      "E11"
+    ],
+    "diagram": "quiz",
+    "takeaway": "先回答，再展開解答。回到 Wiki，可以追查每個觀念。"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "time": "2026-11-14T06:37:59.951Z",
+  "note": "Intentional faults were injected only into temporary copies, not the submitted teaching content.",
+  "results": [
+    {
+      "name": "來源不足退回檢索、三輪失敗後 STOP，第四次禁止繼續",
+      "status": "PASS"
+    },
+    {
+      "name": "證據錯誤退回證據卡",
+      "status": "PASS"
+    },
+    {
+      "name": "逐頁稿缺證據退回逐頁稿",
+      "status": "PASS"
+    },
+    {
+      "name": "HTML 雜湊變更使瀏覽器報告失效，退回 HTML",
+      "status": "PASS"
+    }
+  ]
+}
