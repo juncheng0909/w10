@@ -35,14 +35,24 @@
 |來源整理 → Wiki Ingest → 來源檢查|PASS|通過|
 |證據卡與 Wiki 忠實度|PASS|通過|
 |教學大綱 → 逐頁內容 → 忠實度檢查|PASS|通過|
-|HTML 與關鍵觀念模型|FAIL|12 頁與 12 組證據標記: Expected values to be strictly equal:
-
-18 !== 12
-|
+|HTML 與關鍵觀念模型|FAIL|12 頁與 12 組證據標記: Expected values to be strictly equal:  18 !== 12 |
 
 ## 執行 4 · 2026-11-14T06:38:00.056Z
 
 狀態：PASS。修正輪數：{"source":0,"fidelity":1,"layout":2}
+
+|關卡|結果|原因|
+|---|---|---|
+|來源整理 → Wiki Ingest → 來源檢查|PASS|通過|
+|證據卡與 Wiki 忠實度|PASS|通過|
+|教學大綱 → 逐頁內容 → 忠實度檢查|PASS|通過|
+|HTML 與關鍵觀念模型|PASS|通過|
+|版面與功能測試|PASS|通過|
+|發布關卡|PASS|允許發布；部署結果另記|
+
+## 執行 5 · 2026-11-14T06:43:16.690Z
+
+狀態：PASS。修正輪數：{"source":0,"fidelity":0,"layout":0}
 
 |關卡|結果|原因|
 |---|---|---|

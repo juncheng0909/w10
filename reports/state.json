@@ -1,13 +1,11 @@
 {
-  "runId": "2026-11-14T06:25:29.723Z",
+  "runId": "2026-11-14T06:43:16.680Z",
   "rounds": {
     "source": 0,
-    "fidelity": 1,
-    "layout": 2
+    "fidelity": 0,
+    "layout": 0
   },
   "status": "PASS",
-  "name": "HTML 與關鍵觀念模型",
   "loop": null,
-  "returnTo": null,
-  "error": "12 頁與 12 組證據標記: Expected values to be strictly equal:\n\n18 !== 12\n"
+  "returnTo": null
 }
